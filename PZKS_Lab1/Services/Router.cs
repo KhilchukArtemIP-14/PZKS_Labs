@@ -42,6 +42,7 @@ namespace PZKS_Lab1.Services
                         CharType.PLUS_MINUS or CharType.MUL_DIV => State.OPERATION,
                         CharType.OPEN_BRACKET => State.FUNCTION_OPENING_BRACKET,
                         CharType.CLOSE_BRACKET => State.CLOSING_BRACKET,
+                        CharType.DIGIT => State.VARIABLE_OR_FUNCTION,
                         _ => State.ERR
                     };
 

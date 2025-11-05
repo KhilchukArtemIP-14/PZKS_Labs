@@ -153,7 +153,7 @@ namespace PZKS_Lab1.Services
             {
                 State.START => "+, -, 0..9, a..z, A..Z, (",
                 State.OPERATION => "0..9, a..z, A..Z, (",
-                State.VARIABLE_OR_FUNCTION => "+, -, *, /, ), (",
+                State.VARIABLE_OR_FUNCTION => "a..z, A..Z, 0..9, +, -, *, /, ), (",
                 State.CONSTANT => "0..9, +, -, *, /, ), .",
                 State.CONSTANT_DOT_CONSTANT => "0..9,+, -, *, /, )",
                 State.CLOSING_BRACKET => "+, -, *, /, )",

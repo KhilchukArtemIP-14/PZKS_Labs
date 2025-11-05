@@ -11,7 +11,7 @@ namespace PZKS_Lab1
             var testExpressions = new List<string>
             {
                 // === Valid Expressions ===
-                "3.15 + 4545.313",
+                /*"3.15 + 4545.313",
                 "3 + 5",
                 "x * (y + 2)",
                 "sin(x) + cos(y)",
@@ -58,7 +58,14 @@ namespace PZKS_Lab1
                 "-(-exp(3et/4.0.2, 2i-1)/L + )((void*)*f()) + ((i++) + (++i/(i--))/k//) + 6.000.500.5",
                 "**f(*k, -p+1, ))2.1.1 + 1.8q((-5x ++ i)",
                 "/.1(2x^2-5x+7)-(-i)+ (j++)/0 - )(*f)(2, 7-x, )/q + send(-(2x+7)/A[j, i], 127.0.0.1 ) + )/",
-                "*101*1#(t-q)(t+q)//dt - (int*)f(8t, -(k/h)A[i+6.]), exp(), ))(t-k*8.00.1/.0"
+                "*101*1#(t-q)(t+q)//dt - (int*)f(8t, -(k/h)A[i+6.]), exp(), ))(t-k*8.00.1/.0",*/
+
+                //===//
+                "-3+12*c*d/e-d*f/cd*(a+2.2*4)",
+                "-(b+c)+func1((1a*baa+1bj_ko2*(j-e))",
+                "-a+b2*0-nm",
+                "g2*(b-17.3)))+(6-cos(5)))",
+                "-(215.01+312,2)b)+(1c"
             };
 
             foreach (var expression in testExpressions)
