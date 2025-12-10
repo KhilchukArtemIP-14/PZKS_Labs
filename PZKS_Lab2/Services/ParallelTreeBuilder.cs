@@ -84,7 +84,7 @@ namespace PZKS_Lab2.Services
 
                 return opNode;
             }
-
+            // well or func
             if (tokens[start].TokenType == TokenType.FN && tokens[end].TokenType == TokenType.CB)
             {
                 var funcNode = new ExpressionNode(tokens[start]);

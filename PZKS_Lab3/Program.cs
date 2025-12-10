@@ -18,7 +18,8 @@ namespace PZKS_Lab_3
                 "A - B*c - L*k*2 + D*t/d*y - H + Q*3 - J*(w-1)/r + P",
                 "A-B*c-J*(d*t*j-u*t+c*r-1+w-k/q+m*(n-k*s+z*(y+u*p-y/r-5)+x+t/2))/r+P",
                 "a + b*c + d + e*f*g + h*i + j*(k + L + m*(n-p*q+r) - s*t)",
-                "sin(x) + cos(y) * 2"
+                "sin(x) + cos(y) * 2",
+                "a*(c+d+a*(b-c))"
             };
 
             foreach (var expression in commutativeLawTests)
@@ -55,7 +56,8 @@ namespace PZKS_Lab_3
                 "(a-c)*(b-k+1)",
                 "(1-d)/(a+b-2)/e",
                 "a-b*(k-t)-(f-g)*(f*5.9-q)-(f+g)/(d+q-w)",
-                "a-b*(k-t+(f-g)*(f*5.9-q)+(w-y*(m-1))/p)-(x-3)*(x+3)/(d+q-w)"
+                "a-b*(k-t+(f-g)*(f*5.9-q)+(w-y*(m-1))/p)-(x-3)*(x+3)/(d+q-w)",
+                "a*(c+d+a*(b-c))"
             };
 
             foreach (var expression in distributiveTests)

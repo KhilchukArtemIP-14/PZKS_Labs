@@ -49,6 +49,7 @@ namespace PZKS_Lab1.Services
                 case State.CONSTANT:
                     return type switch
                     {
+                        //CharType.LETTER => State.VARIABLE_OR_FUNCTION,
                         CharType.DIGIT => State.CONSTANT,
                         CharType.DOT => State.CONSTANT_DOT,
                         CharType.PLUS_MINUS or CharType.MUL_DIV => State.OPERATION,

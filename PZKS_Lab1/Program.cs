@@ -65,7 +65,8 @@ namespace PZKS_Lab1
                 "-(b+c)+func1((1a*baa+1bj_ko2*(j-e))",
                 "-a+b2*0-nm",
                 "g2*(b-17.3)))+(6-cos(5)))",
-                "-(215.01+312,2)b)+(1c"
+                "-(215.01+312,2)b)+(1c",
+                "bj_k.o2"
             };
 
             foreach (var expression in testExpressions)

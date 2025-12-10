@@ -11,7 +11,7 @@ namespace PZKS_Lab1.Extensions
     {
         public static CharType GetCharType(this char c)
         {
-            if (char.IsLetter(c))
+            if (char.IsLetter(c)||c.Equals('_'))
                 return CharType.LETTER;
 
             if (char.IsDigit(c))
